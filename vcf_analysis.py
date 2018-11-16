@@ -1,3 +1,5 @@
+## program used to calculate sigma squared and Va, and that calculates their ratio afterwards.
+
 #!/usr/bin/env python3
 
 import numpy as np
@@ -5,7 +7,7 @@ import argparse
 import os
 
 
-def variance_additive(array):
+def variance_additive(array): #sum of the snp variances
     n=array.shape[0] #nb ligne = nb de snps
     m=array.shape[1]  #nb colonnes = nb d'individus
     X=0
@@ -14,7 +16,7 @@ def variance_additive(array):
     return X
 
 
-def sigma_squared(array):
+def sigma_squared(array):   #variance of the summed individuals
     n=array.shape[0] #nb ligne = nb de snps
     m=array.shape[1]  #nb colonnes = nb d'individus
     X=[]

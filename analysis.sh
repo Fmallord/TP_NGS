@@ -1,3 +1,7 @@
+## the main file of the second week of practicals; the steps are explained inside, from 1000GP data extraction to obtention of the input for the statisticals analyses
+
+
+
 #!/bin/bash
 
 mkdir -p /mnt/data/pop_genet

@@ -1,3 +1,5 @@
+##program used to classify the different kind of mutations obtained for each exonic polymorphism conserved after the gtf_to_bed.py phase
+
 #!/usr/bin/env python3
 
 from Bio import SeqIO

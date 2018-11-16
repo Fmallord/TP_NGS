@@ -1,3 +1,5 @@
+## allows us to filter out from the exons in the gtf files empty, fake or non confirmed exons
+
 #!/usr/bin/env python3
 
 import argparse
@@ -25,7 +27,7 @@ class Cds(object):
         return sum([1 for exon_len in self.exons_length() if exon_len == 1]) > 0
         
     def not_coding_exon(self):
-        return self.seq_length() % 3 != 0
+        return self.seq_length() % 3 != 0   #when an exon is not multiple by 3 in DNA sequence, it is not truly coding
 
     def exons_length(self):
         return [j - i + 1 for i, j in self.exons]
@@ -63,7 +65,7 @@ def build_dict_cds(data_path, file_name):
     return dico_cds, nf_tr_id
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':        #to define the parameters we will use when calling the function in analysis.sh
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('-g', '--gtf', required=True, type=str,
                         dest="g", metavar="<gtf>",

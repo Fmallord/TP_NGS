@@ -1,3 +1,6 @@
+##installation of programs we will use during the analyses
+
+
 #!/bin/bash
 
 # If on Biosphere (IFB), use '/mnt/data/tools' as the installation directory

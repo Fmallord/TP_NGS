@@ -3,6 +3,8 @@
 import argparse
 import os
 
+# to extract genomes by populations
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('-p', '--panel', required=True, type=str,

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Oupppsss, I'm so empty ... I want to be filled to actually perform the analysis
-
 mkdir -p /mnt/data/pop_genet
 
 wget ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/supporting/GRCh38_positions/ALL.chr20_GRCh38.genotypes.20170504.vcf.gz -O Homo_sapiens.Chr20.vcf.gz

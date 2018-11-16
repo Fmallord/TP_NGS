@@ -1,3 +1,5 @@
+## the script used to make vcf analyses and draw the corresponding graphs for each population or sub-population considered "automatically"
+
 #!/usr/bin/env python3
 
 import numpy as np

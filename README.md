@@ -2,9 +2,9 @@
 -------------------------------------------
 ## Objectif
 
-Ce TP avait pour but final de déterminer comment les mutations délétères sont associés dans le génome humain, et ce en essayant de recréer l'article "Negative selection in humans and fruit flies involves synergistic epistasis", de Sohail et al (2017). 
-Cet article concluait que les mutations délétères se repoussaient au niveau individuel, car l'association des mutations délétères provoquait une chute encore plus significative de fitness (= synergie épistatique, opposée à l'épistasie antagoniste où les mutations délétères associées ont un impact négatif global atténué, et opposée aussi à la neutralité où les effets des mutations délétères s'additionnent).
-Pour tester cette hypothèse, nous avons donc décidé d'analyser les génomes de nombreux individus, afin de déterminer le type d'association présent entre leurs mutations délétères. 
+Ce TP avait pour but final de déterminer comment les mutations délétères sont associés dans le génome humain, et ce en essayant de recréer l'article "Negative selection in humans and fruit flies involves synergistic epistasis", de Sohail et al (2017).      
+Cet article concluait que les mutations délétères se repoussaient au niveau individuel, car l'association des mutations délétères provoquait une chute encore plus significative de fitness (= synergie épistatique, opposée à l'épistasie antagoniste où les mutations délétères associées ont un impact négatif global atténué, et opposée aussi à la neutralité où les effets des mutations délétères s'additionnent).  
+Pour tester cette hypothèse, nous avons donc décidé d'analyser les génomes de nombreux individus, afin de déterminer le type d'association présent entre leurs mutations délétères.   
 
 -------------------------------------------
 ## Première semaine: test des fichiers vcf (= fichiers comportant les SNPs génomiques)

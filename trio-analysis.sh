@@ -70,4 +70,8 @@ java -jar ${GATK} -T VariantEval \
 # Command: gatk GenotypeConcordance
 # Input: 2 variant callings files (.vcf) + reference genome (.fa)
 # Output: Report file (.txt)
-xxxxxxxxxxxxxxxxxxxx
+java -jar ${GATK} -T GenotypeConcordance \
+	-R ${REF_GENOME} \
+	--eval trio.vcf \
+	--comp trio.phased.vcf \
+-o report.trio.txt
